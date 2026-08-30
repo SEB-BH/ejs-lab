@@ -93,6 +93,7 @@ const resturaunts = [
 ];
 ```
 
+
 2. Explore the data. What is the data structure. What data do we have on EACH resturaunt?
 
 ---

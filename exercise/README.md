@@ -50,7 +50,7 @@ See Our Restaurants
 
 2. Now in your server.js write the route so when the user sends a request to `/resturaunts/:id` they see the `resturaunts-details.ejs` page.
 
-3. CHECKPOINT: In the `/resturaunts` route now when you click the link to a resutraunt it should show you the `resturaunts-details.ejs` page with the url looking like thos: `/resturaunts/3` for example
+3. CHECKPOINT: In the `/resturaunts` route now when you click the link to a resutraunt it should show you the `resturaunts-details.ejs` page with the url looking like this: `/resturaunts/3` for example
 
 4. Now in the server.js for the route we just created (`/resturaunts/:id`) use the `.find()` method for the array to find the resturaunt that matches the id in the dynamic route parameter. **REMEMBER** the dynamic route parameter is in the `req.params`.
   - If in the route we had the url like so `/resturaunts/:id` then we can get the id at `req.params.id`
@@ -135,6 +135,32 @@ Make the navbar a partial if you haven't already.
 ---
 
 ## Bonus Challenge 5
+
+This is practicing using environment variables. We need to install the `dotenv` package and create a `.env` file.
+
+1. Install the dotenv package
+```bash
+npm install dotenv
+```
+2. import the `dotenv` package in the `server.js` file like so
+```js
+const dotenv = require('dotenv').config()
+```
+3. Now create a `.env` file in the root of your project. and add the following value inside:
+```dotenv
+SAYED_HAMED_MESSAGE=your-message-to-sayed-hamed
+```
+4. Now `console.log()` the value from the `.env` file
+```js
+console.log(process.env.SAYED_HAMED_MESSAGE)
+```
+5. Add the `.env` file into your `.gitignore` file because we should not push it to github. When you are finished the `.gitignore` should look like this:
+```
+node_modules
+.env
+```
+
+## Bonus Challenge 6
 
 Improve the appearance of your website by adding your own CSS.
 
