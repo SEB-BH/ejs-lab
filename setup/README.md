@@ -6,7 +6,7 @@
 
 # Setup
 
-Use our [starter document](https://docs.google.com/document/d/1Skjcc3gQG1lPhW5qCw8wfAzoI5W1oYvjGt4KqD_fUr4/edit?usp=sharing) to set up your Express application.
+Use our [starter document](https://docs.google.com/document/d/1bkq7rMvdvotm40jkKJ2x-yaQ3e6SkT18--afAWdrbGA/edit?usp=sharing) to set up your Express application.
 
 
 ---
