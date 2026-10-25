@@ -148,11 +148,11 @@ const dotenv = require('dotenv').config()
 ```
 3. Now create a `.env` file in the root of your project. and add the following value inside:
 ```dotenv
-SAYED_HAMED_MESSAGE=your-message-to-sayed-hamed
+ZAID_MESSAGE=your-message-to-sayed-hamed
 ```
 4. Now `console.log()` the value from the `.env` file
 ```js
-console.log(process.env.SAYED_HAMED_MESSAGE)
+console.log(process.env.ZAID_MESSAGE)
 ```
 5. Add the `.env` file into your `.gitignore` file because we should not push it to github. When you are finished the `.gitignore` should look like this:
 ```
